@@ -59,6 +59,8 @@
 
 <style lang="scss" scoped>
 .cards {
+  display: flex;
+  min-width: 344px;
   @include screen('infinity', 'large') {
     display: flex;
     flex-direction: row;
@@ -77,6 +79,7 @@
     justify-content: space-between;
     align-items: center;
     overflow-x: hidden;
+    gap: 0px;
   }
   .card {
     /* Auto layout */

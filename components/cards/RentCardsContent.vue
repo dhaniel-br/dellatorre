@@ -70,6 +70,8 @@
 
 <style lang="scss" scoped>
 .cards {
+  display: flex;
+  min-width: 344px;
   @include screen('infinity', 'large') {
     display: flex;
     flex-direction: row;
