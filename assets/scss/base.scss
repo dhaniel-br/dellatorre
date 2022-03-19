@@ -1,0 +1,69 @@
+@font-face {
+  font-family: Inter;
+  src: url('~@/assets/fonts/Inter-Light.ttf');
+  font-weight: 300;
+  font-display: block;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('~@/assets/fonts/Inter-Medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Inter;
+  src: url('~@/assets/fonts/Inter-SemiBold.ttf');
+  font-weight: 600;
+  font-display: block;
+}
+@font-face {
+  font-family: Redwing;
+  src: url('~@/assets/fonts/Redwing-Medium.otf');
+  font-weight: 500;
+  font-display: block;
+}
+
+body {
+  font-family: Inter;
+  width: 100%;
+  overflow-x: hidden;
+  font-size: 1rem;
+  padding-bottom: 10.9rem;
+  font-size: 16px;
+}
+h1 {
+  margin: 0px;
+  width: 100%;
+}
+
+html {
+  position: relative;
+}
+
+html,
+body {
+  min-height: 100%;
+  background: color(backcolors, 'dark');
+}
+
+#__nuxt,
+#__layout {
+  height: 100%;
+  width: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  border: 0;
+  outline: none;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  &:focus {
+    outline: none;
+  }
+}
