@@ -18,6 +18,10 @@
   }
   @include screen('small') {
     width: 90%;
+    padding: 0px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>

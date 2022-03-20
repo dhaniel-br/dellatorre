@@ -1,5 +1,5 @@
 <template>
-  <div class="cards">
+  <div class="rent-cards-content">
     <div class="card">
       <div class="heading">
         <img src="https://i.imgur.com/2ydZHBZ.png" class="cover" />
@@ -69,7 +69,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cards {
+.rent-cards-content {
   display: flex;
   min-width: 344px;
   @include screen('infinity', 'large') {

@@ -18,5 +18,7 @@ export default Vue.extend({
   display: grid;
   grid-gap: 128px;
   padding-top: 32px;
+  align-items: center;
+  justify-content: center;
 }
 </style>

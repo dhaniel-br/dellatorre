@@ -1,5 +1,5 @@
 <template>
-  <div class="cards">
+  <div class="sale-cards-content">
     <div class="card">
       <div class="heading">
         <img src="https://i.imgur.com/qbylLwK.png" class="cover" />
@@ -58,7 +58,7 @@
 </template>
 
 <style lang="scss" scoped>
-.cards {
+.sale-cards-content {
   display: flex;
   min-width: 344px;
   @include screen('infinity', 'large') {
