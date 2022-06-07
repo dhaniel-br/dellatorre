@@ -54,6 +54,39 @@
         <CallButton />
       </div>
     </div>
+
+    <div class="card">
+      <div class="heading">
+        <img src="https://i.imgur.com/D2G4cWS.jpg?1=" class="cover" />
+        <CardTitle :text="'Chevrolet S10 4X4 LTZ Flex'" />
+      </div>
+      <div class="buttons">
+        <WhatsappButton :text="'Ver detalhes'" />
+        <CallButton />
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="heading">
+        <img src="https://i.imgur.com/y8oSKv4.jpg" class="cover" />
+        <CardTitle :text="'Retroescavadeira CAT 416E 4x2'" />
+      </div>
+      <div class="buttons">
+        <WhatsappButton :text="'Ver detalhes'" />
+        <CallButton />
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="heading">
+        <img src="https://i.imgur.com/be1MvFq.jpg" class="cover" />
+        <CardTitle :text="'Escavadeira CAT 320DL'" />
+      </div>
+      <div class="buttons">
+        <WhatsappButton :text="'Ver detalhes'" />
+        <CallButton />
+      </div>
+    </div>
   </div>
 </template>
 
